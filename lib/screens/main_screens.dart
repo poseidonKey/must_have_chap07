@@ -22,7 +22,7 @@ class _MainScreensState extends State<MainScreens> {
         const HomeScreen(),
         NeighborhoodLifeScreen(),
         NearMeScreen(),
-        ChattingScreen(),
+        const ChattingScreen(),
         MyCarrotScreen()
       ]),
       bottomNavigationBar: BottomNavigationBar(
