@@ -25,7 +25,7 @@ class MyCarrotHeader extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              _buildRoundTextButton('판매내역', FontAwesomeIcons.receipt),
+              _buildRoundTextButton('판매내역_', FontAwesomeIcons.receipt),
               _buildRoundTextButton('구매내역', FontAwesomeIcons.shoppingBag),
               _buildRoundTextButton('관심목록', FontAwesomeIcons.heart),
             ],
