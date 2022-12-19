@@ -36,9 +36,24 @@ class MyCarrotHeader extends StatelessWidget {
   }
 
   Widget _buildProfileRow() {
-    return Container(
-      color: Colors.redAccent[100],
-      height: 60,
+    return Row(
+      children: [
+        Stack(
+          children: [
+            SizedBox(
+              width: 65,
+              height: 65,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(32.5),
+                child: Image.network(
+                  "https://placeimg.com/200/100/people",
+                  fit: BoxFit.cover,
+                ),
+              ),
+            )
+          ],
+        )
+      ],
     );
   }
 
